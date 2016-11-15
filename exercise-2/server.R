@@ -14,5 +14,7 @@ shinyServer(function(input, output) {
     x <- rnorm(input$num)
     y <- rnorm(input$num)
     return(plot(x,y, col=input$color))
+    
+    
   })
 })
